@@ -1,0 +1,664 @@
+Release 13.4 - xst O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
+ 
+--> 
+Reading design: orpsoc_top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "orpsoc_top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "orpsoc_top"
+Output Format                      : NGC
+Target Device                      : xc6slx45-3-csg324
+
+---- Source Options
+Top Module Name                    : orpsoc_top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+change_error_to_warning            : "HDLCompiler:1330"
+
+=========================================================================
+
+INFO:Xst - Changing 'HDLCompiler:1330' to warning
+INFO:Xst - Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/raminfr.v" into library work
+Parsing module <raminfr>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_mul.v" into library work
+Parsing module <or1200_fpu_pre_norm_mul>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_div.v" into library work
+Parsing module <or1200_fpu_pre_norm_div>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" into library work
+Parsing module <or1200_fpu_pre_norm_addsub>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" into library work
+Parsing module <or1200_fpu_post_norm_mul>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" into library work
+Parsing module <or1200_fpu_post_norm_intfloat_conv>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" into library work
+Parsing module <or1200_fpu_post_norm_div>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v" into library work
+Parsing module <or1200_fpu_post_norm_addsub>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v" into library work
+Parsing module <or1200_fpu_mul>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v" into library work
+Parsing module <or1200_fpu_intfloat_conv_except>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v" into library work
+Parsing module <or1200_fpu_div>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_addsub.v" into library work
+Parsing module <or1200_fpu_addsub>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_tfifo.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 142.
+Parsing module <uart_tfifo>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_rfifo.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 148.
+Parsing module <uart_rfifo>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram_32_bw.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 59.
+Parsing module <or1200_spram_32_bw>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 58.
+Parsing module <or1200_spram>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_reg2mem.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 79.
+Parsing module <or1200_reg2mem>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mem2reg.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 88.
+Parsing module <or1200_mem2reg>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_gmultp2_32x32.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 54.
+Parsing module <or1200_gmultp2_32x32>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" into library work
+Parsing module <or1200_fpu_intfloat_conv>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_fcmp.v" into library work
+Parsing module <or1200_fpu_fcmp>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_arith.v" into library work
+Parsing module <or1200_fpu_arith>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dpram.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 58.
+Parsing module <or1200_dpram>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_transmitter.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 152.
+Parsing module <uart_transmitter>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_sync_flops.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v" included at line 68.
+Parsing module <uart_sync_flops>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_receiver.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 196.
+Parsing module <uart_receiver>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wbmux.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_wbmux>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sprs.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_sprs>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v" included at line 1.
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 2.
+Parsing module <or1200_shadowstk>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_rf.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_rf>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_operandmuxes.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_operandmuxes>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mult_mac.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 58.
+Parsing module <or1200_mult_mac>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_lsu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 54.
+Parsing module <or1200_lsu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_tlb.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 92.
+Parsing module <or1200_immu_tlb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_if.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_if>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_tag.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 55.
+Parsing module <or1200_ic_tag>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_ram.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 55.
+Parsing module <or1200_ic_ram>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_ic_fsm>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_genpc>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_freeze.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_freeze>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 49.
+Parsing module <or1200_fpu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_except>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_tlb.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 54.
+Parsing module <or1200_dmmu_tlb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_tag.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_dc_tag>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_ram.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 54.
+Parsing module <or1200_dc_ram>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 54.
+Parsing module <or1200_dc_fsm>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_ctrl>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cfgr.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_cfgr>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 52.
+Parsing module <or1200_alu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_registers.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v" included at line 70.
+Parsing module <dbg_cpu_registers>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_wb.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 140.
+Parsing module <uart_wb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_regs.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 226.
+Parsing module <uart_regs>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v" into library work
+Parsing module <ram_wb_b3>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 59.
+Parsing module <or1200_wb_biu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_tt.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 48.
+Parsing module <or1200_tt>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sb.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_sb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_qmem_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 77.
+Parsing module <or1200_qmem_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pm.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 73.
+Parsing module <or1200_pm>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pic.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 51.
+Parsing module <or1200_pic>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 47.
+Parsing module <or1200_immu_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 51.
+Parsing module <or1200_ic_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_du>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_dmmu_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 55.
+Parsing module <or1200_dc_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 53.
+Parsing module <or1200_cpu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb_defines.v" included at line 46.
+Parsing module <dbg_wb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_crc32_d1.v" into library work
+Parsing module <dbg_crc32_d1>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v" included at line 46.
+Parsing module <dbg_cpu>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart16550.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v" included at line 138.
+Parsing module <uart16550>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" into library work
+Parsing module <ram_wb>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v" included at line 55.
+Parsing module <or1200_top>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/tap_defines.v" included at line 104.
+Parsing module <jtag_tap>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/intgen.v" into library work
+Parsing module <intgen>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_defines.v" included at line 205.
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v" included at line 206.
+Parsing module <dbg_if>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v" included at line 38.
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v" included at line 39.
+Parsing module <clkgen>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v" included at line 37.
+Parsing module <arbiter_ibus>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v" included at line 36.
+Parsing module <arbiter_dbus>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_bytebus.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v" included at line 47.
+Parsing module <arbiter_bytebus>.
+Analyzing Verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" into library work
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v" included at line 36.
+Parsing module <orpsoc_top>.
+Parsing verilog file "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-params.v" included at line 50.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <orpsoc_top>.
+
+Elaborating module <clkgen>.
+
+Elaborating module <arbiter_ibus(wb_addr_match_width=4,slave0_adr=4'b1111,slave1_adr=4'b0)>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v" Line 181: Result of 14-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 274: Assignment to wbs_i_rom0_adr_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 275: Assignment to wbs_i_rom0_dat_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 276: Assignment to wbs_i_rom0_sel_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 277: Assignment to wbs_i_rom0_we_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 278: Assignment to wbs_i_rom0_cyc_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 279: Assignment to wbs_i_rom0_stb_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 280: Assignment to wbs_i_rom0_cti_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 281: Assignment to wbs_i_rom0_bte_i ignored, since the identifier is never used
+
+Elaborating module <arbiter_dbus(wb_addr_match_width=8,wb_num_slaves=2,slave0_adr=4'b0,slave1_adr=8'bx)>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v" Line 915: Result of 14-bit expression is truncated to fit in 13-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 349: Assignment to wbm_d_dbg_rty_i ignored, since the identifier is never used
+
+Elaborating module <arbiter_bytebus(wb_addr_match_width=8,wb_num_slaves=2,slave0_adr=8'b10010000,slave1_adr=8'b11100001)>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 419: Assignment to wbs_d_uart0_cti_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 420: Assignment to wbs_d_uart0_bte_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 431: Assignment to wbs_d_intgen_cti_i ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 432: Assignment to wbs_d_intgen_bte_i ignored, since the identifier is never used
+
+Elaborating module <jtag_tap>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v" Line 568: Assignment to bypass_select ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 483: Assignment to jtag_tap_capture_dr ignored, since the identifier is never used
+
+Elaborating module <or1200_top>.
+
+Elaborating module <or1200_wb_biu(bl=32'sb0100)>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 156: Assignment to retry_cnt ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 210: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 223: Signal <wb_fsm_idle> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 228: Signal <wb_fsm_trans> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 230: Signal <wb_fsm_idle> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 233: Signal <wb_fsm_trans> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 245: Signal <wb_fsm_last> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 248: Signal <wb_fsm_idle> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 250: Signal <wb_fsm_trans> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 253: Signal <wb_fsm_last> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 262: Signal <wb_fsm_idle> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 264: Signal <wb_fsm_last> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 320: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <or1200_immu_top(boot_adr=32'b0100000000)>.
+
+Elaborating module <or1200_immu_tlb>.
+
+Elaborating module <or1200_spram(aw=6,dw=14)>.
+
+Elaborating module <or1200_spram(aw=6,dw=22)>.
+
+Elaborating module <or1200_ic_top>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v" Line 225: Assignment to ic_inv_q ignored, since the identifier is never used
+
+Elaborating module <or1200_ic_fsm>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 199: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 202: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 238: Result of 3-bit expression is truncated to fit in 2-bit target.
+
+Elaborating module <or1200_ic_ram>.
+
+Elaborating module <or1200_spram(aw=10,dw=32)>.
+
+Elaborating module <or1200_ic_tag>.
+
+Elaborating module <or1200_spram(aw=8,dw=21)>.
+
+Elaborating module <or1200_cpu(boot_adr=32'b0100000000)>.
+
+Elaborating module <or1200_genpc(boot_adr=32'b0100000000)>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v" Line 154: Assignment to genpc_refetch_r ignored, since the identifier is never used
+
+Elaborating module <or1200_if>.
+
+Elaborating module <or1200_ctrl>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v" Line 206: Assignment to wb_void ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v" Line 485: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v" Line 531: Assignment to id_mac_op ignored, since the identifier is never used
+
+Elaborating module <or1200_rf>.
+
+Elaborating module <or1200_dpram(aw=5,dw=32)>.
+
+Elaborating module <or1200_operandmuxes>.
+
+Elaborating module <or1200_alu>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v" Line 124: Assignment to comp_a ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v" Line 125: Assignment to comp_b ignored, since the identifier is never used
+
+Elaborating module <or1200_fpu>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 178: Assignment to fpu_op_is_arith ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 180: Assignment to fpu_op_is_comp ignored, since the identifier is never used
+
+Elaborating module <or1200_fpu_arith>.
+
+Elaborating module <or1200_fpu_pre_norm_addsub>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 110: Assignment to s_expa_eq_expb ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 115: Assignment to s_fracta_1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 116: Assignment to s_fractb_1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 121: Assignment to s_op_dn ignored, since the identifier is never used
+
+Elaborating module <or1200_fpu_addsub>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_addsub.v" Line 103: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <or1200_fpu_post_norm_addsub>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v" Line 166: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v" Line 215: Result of 32-bit expression is truncated to fit in 1-bit target.
+
+Elaborating module <or1200_fpu_pre_norm_mul>.
+
+Elaborating module <or1200_fpu_mul>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v" Line 92: Assignment to s_signa_i ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v" Line 125: Result of 6-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <or1200_fpu_post_norm_mul>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 254: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 261: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 316: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 327: Result of 26-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 334: Result of 32-bit expression is truncated to fit in 9-bit target.
+
+Elaborating module <or1200_fpu_pre_norm_div>.
+
+Elaborating module <or1200_fpu_div>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v" Line 99: Assignment to s_sign_dvd_i ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v" Line 131: Result of 32-bit expression is truncated to fit in 5-bit target.
+
+Elaborating module <or1200_fpu_post_norm_div>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 142: Assignment to s_opa_dn ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 143: Assignment to s_opb_dn ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 152: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 155: Result of 32-bit expression is truncated to fit in 10-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 226: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 234: Result of 32-bit expression is truncated to fit in 25-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_arith.v" Line 355: Result of 7-bit expression is truncated to fit in 6-bit target.
+
+Elaborating module <or1200_fpu_intfloat_conv>.
+
+Elaborating module <or1200_fpu_intfloat_conv_except>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v" Line 103: Assignment to qnan_r_b ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v" Line 106: Assignment to snan_r_b ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 157: Assignment to opa_00 ignored, since the identifier is never used
+
+Elaborating module <or1200_fpu_post_norm_intfloat_conv>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 201: Assignment to exp_in_80 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 203: Assignment to exp_out_00 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 208: Assignment to fract_out_00 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 289: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 290: Result of 32-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 290: Assignment to fi_ldz_mi22 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 291: Result of 9-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 292: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 292: Assignment to exp_out_mi1 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 294: Result of 32-bit expression is truncated to fit in 9-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 294: Assignment to exp_in_mi1 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 295: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 295: Assignment to exp_out1_mi1 ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 307: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 313: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 315: Result of 32-bit expression is truncated to fit in 8-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 323: Assignment to ldz_all ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 325: Assignment to fi_ldz_2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 283: Assignment to out_fixed ignored, since the identifier is never used
+WARNING:HDLCompiler:552 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 147: Input port opb[31] is not connected on this instance
+WARNING:HDLCompiler:552 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 238: Input port opb_dn is not connected on this instance
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 371: Assignment to overflow_conv ignored, since the identifier is never used
+
+Elaborating module <or1200_fpu_fcmp>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 387: Assignment to unordered ignored, since the identifier is never used
+
+Elaborating module <or1200_mult_mac>.
+
+Elaborating module <or1200_gmultp2_32x32>.
+
+Elaborating module <or1200_sprs>.
+
+Elaborating module <or1200_lsu>.
+
+Elaborating module <or1200_mem2reg>.
+
+Elaborating module <or1200_reg2mem>.
+
+Elaborating module <or1200_wbmux>.
+
+Elaborating module <or1200_freeze>.
+
+Elaborating module <or1200_except>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v" Line 459: Assignment to extend_flush_last ignored, since the identifier is never used
+
+Elaborating module <or1200_cfgr>.
+
+Elaborating module <or1200_shadowstk>.
+"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 24. $display Reset has occurred!
+"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 32. $display Pushed 0 into ShadowStack[0:0]
+"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 39. $display Popped 0 from ShadowStack[0:0]
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 47: Signal <operand_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 48: Signal <operand_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 48. $display 0 in stack does not match with 0 in shadow
+WARNING:HDLCompiler:91 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 51: Signal <operand_b> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 51. $display 0 in stack matches 0 in shadow
+WARNING:HDLCompiler:1499 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 4: Empty module <or1200_shadowstk> remains a black box.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 639: Assignment to id_void ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 640: Assignment to id_insn ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 641: Assignment to ex_void ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 644: Assignment to wb_insn ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 645: Assignment to wb_freeze ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 647: Assignment to ex_pc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 648: Assignment to wb_pc ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 651: Assignment to flushpipe ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 657: Assignment to du_except_trig ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 664: Assignment to du_lsu_store_dat ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 665: Assignment to du_lsu_load_dat ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 666: Assignment to abort_mvspr ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 667: Assignment to abort_ex ignored, since the identifier is never used
+
+Elaborating module <or1200_dmmu_top>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v" Line 234: Assignment to dcpu_vpn_r ignored, since the identifier is never used
+
+Elaborating module <or1200_dmmu_tlb>.
+
+Elaborating module <or1200_spram(aw=6,dw=24)>.
+
+Elaborating module <or1200_dc_top>.
+
+Elaborating module <or1200_dc_fsm>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 273: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 435: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 461: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 462: Result of 3-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 483: Result of 5-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 531: Result of 5-bit expression is truncated to fit in 4-bit target.
+
+Elaborating module <or1200_dc_ram>.
+
+Elaborating module <or1200_spram_32_bw(aw=10,dw=32)>.
+
+Elaborating module <or1200_dc_tag>.
+
+Elaborating module <or1200_spram(aw=8,dw=22)>.
+
+Elaborating module <or1200_qmem_top>.
+
+Elaborating module <or1200_sb>.
+
+Elaborating module <or1200_du>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 636: Assignment to dmr2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 677: Assignment to dvr0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 690: Assignment to dvr1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 703: Assignment to dvr2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 716: Assignment to dvr3 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 729: Assignment to dvr4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 742: Assignment to dvr5 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 755: Assignment to dvr6 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 768: Assignment to dvr7 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 781: Assignment to dcr0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 794: Assignment to dcr1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 807: Assignment to dcr2 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 820: Assignment to dcr3 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 833: Assignment to dcr4 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 846: Assignment to dcr5 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 859: Assignment to dcr6 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 872: Assignment to dcr7 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 887: Assignment to dwcr0 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 902: Assignment to dwcr1 ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1628: Assignment to du_hwbkpt_hold ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1739: Assignment to tbia_dat_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1740: Assignment to tbim_dat_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1741: Assignment to tbar_dat_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1742: Assignment to tbts_dat_o ignored, since the identifier is never used
+
+Elaborating module <or1200_pic>.
+
+Elaborating module <or1200_tt>.
+
+Elaborating module <or1200_pm>.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 579: Assignment to or1200_dbg_lss_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 580: Assignment to or1200_dbg_is_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 581: Assignment to or1200_dbg_wp_o ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 608: Assignment to sig_tick ignored, since the identifier is never used
+
+Elaborating module <dbg_if>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 399: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 414: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 437: Result of 4-bit expression is truncated to fit in 3-bit target.
+
+Elaborating module <dbg_crc32_d1>.
+
+Elaborating module <dbg_wb>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 405: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 444: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 455: Assignment to cmd_cnt_end_q ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 555: Result of 32-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 560: Result of 32-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 565: Result of 32-bit expression is truncated to fit in 17-bit target.
+
+Elaborating module <dbg_cpu>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 270: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 320: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 348: Result of 21-bit expression is truncated to fit in 20-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 387: Result of 7-bit expression is truncated to fit in 6-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 398: Assignment to cmd_cnt_end_q ignored, since the identifier is never used
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 425: Result of 4-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 499: Result of 32-bit expression is truncated to fit in 17-bit target.
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 513: Assignment to half_q ignored, since the identifier is never used
+WARNING:HDLCompiler:1127 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 789: Assignment to mem_ptr_init ignored, since the identifier is never used
+
+Elaborating module <dbg_cpu_registers>.
+
+Elaborating module <ram_wb(aw=32,dw=32,mem_size_bytes=8388608,mem_adr_width=23)>.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 130: Result of 32-bit expression is truncated to fit in 2-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 133: Result of 32-bit expression is truncated to fit in 3-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 136: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 142: Result of 32-bit expression is truncated to fit in 4-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 145: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:413 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 148: Result of 32-bit expression is truncated to fit in 1-bit target.
+WARNING:HDLCompiler:1330 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v" Line 249: Function set_mem32 has no return value assignment
+
+Elaborating module <ram_wb_b3(aw=32,dw=32,mem_size_bytes=8388608,mem_adr_width=23)>.
+WARNING:HDLCompiler:886 - "/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v" Line 39: Vector size is larger than 2**16 bits

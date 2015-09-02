@@ -1,0 +1,91 @@
+`include "timescale.v"
+`include "or1200_defines.v"
+
+module or1200_dfi(
+    clk, rst,
+    dcpu_adr_o, ex_lsu_op, ex_addrbase, ex_addrofs, ex_insn, ex_pc
+);
+
+// Inputs
+input   clk;        // clock
+input   rst;        // reset signal
+input[31:0]     ex_insn;       // instruction from execute stage
+input[31:0]     dcpu_adr_o;    // memory address calculated from adding offset to register value
+input[`OR1200_LSUOP_WIDTH-1:0]  ex_lsu_op; // load/store opcode from execute stage
+input[31:0]     ex_addrbase;
+input[31:0]     ex_addrofs;
+input[31:0]     ex_pc;
+
+// Internal regs and wires
+reg     modified;
+reg[(1<<24)-1:0]    tags;   // table of 1-bit tags, each associated with a stack location. Assuming that
+                            // the stack has 32-bit address space, the table requires 2^32 slots
+
+always @(posedge clk or `OR1200_RST_EVENT rst) begin
+    if (rst == `OR1200_RST_VALUE) begin
+    end
+    else if (ex_insn[15:11] == 5'd9) begin
+        case (ex_lsu_op)
+            `OR1200_LSUOP_SW: begin
+                tags[dcpu_adr_o+:4] = 4'b0000;
+                
+                $display("SW & R9");
+                $display("ex_lsu_op: %h", ex_lsu_op);
+                $display("rf_addrw: %d", ex_insn[25:21]);
+                $display("rf_addra: %d", ex_insn[20:16]);
+                $display("rf_addrb: %d", ex_insn[15:11]);
+                $display("ex_addrbase: %h", ex_addrbase);
+                $display("ex_addrofs: %h", ex_addrofs);
+                $display("dcpu_adr_o: %h", dcpu_adr_o);
+                $display("ex_pc: %h", ex_pc);
+            end
+        endcase
+    end
+    else if (ex_insn[25:21] == 5'd9) begin
+        case (ex_lsu_op)
+            `OR1200_LSUOP_LWZ: begin
+                if (tags[dcpu_adr_o+:4] != 4'b0000) begin
+                    modified <= 1'b1;
+                end
+            end
+        endcase
+    end
+    else begin
+        case (ex_lsu_op)
+            `OR1200_LSUOP_SW: begin
+                tags[dcpu_adr_o+:4] = 4'b1111;
+                
+                $display("SW");
+                $display("ex_lsu_op: %h", ex_lsu_op);
+                $display("rf_addrw: %d", ex_insn[25:21]);
+                $display("rf_addra: %d", ex_insn[20:16]);
+                $display("rf_addrb: %d", ex_insn[15:11]);
+                $display("ex_addrbase: %h", ex_addrbase);
+                $display("ex_addrofs: %h", ex_addrofs);
+                $display("dcpu_adr_o: %h", dcpu_adr_o);
+                $display("ex_pc: %h", ex_pc);
+            end
+
+            `OR1200_LSUOP_LWZ: begin
+                $display("LWZ");
+                $display("ex_lsu_op: %h", ex_lsu_op);
+                $display("ex_rf_addrw: %d", ex_insn[25:21]);
+                $display("ex_rf_addra: %d", ex_insn[20:16]);
+                $display("ex_rf_addrb: %d", ex_insn[15:11]);
+                $display("ex_addrbase: %h", ex_addrbase);
+                $display("ex_addrofs: %h", ex_addrofs);
+                $display("dcpu_adr_o: %h", dcpu_adr_o);
+                $display("ex_pc: %h", ex_pc);
+            end
+        endcase
+    end               
+end
+
+always @(modified) begin
+    if (modified == 1'b1) begin
+        $display("****** Return address has been modified before instruction at PC=$h", ex_pc);
+        modified <= 1'b0;
+    end
+end
+
+endmodule

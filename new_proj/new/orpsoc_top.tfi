@@ -1,0 +1,10 @@
+																																																																																																																																																																																																																																																																																																																																																																																																																																																												
+
+
+// Instantiate the module
+orpsoc_top instance_name (
+    .clk_pad_i(clk_pad_i), 
+    .rst_n_pad_i(rst_n_pad_i)
+    );
+
+

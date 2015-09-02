@@ -1,0 +1,14 @@
+-i /home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/rtl/verilog/include
+-i /home/soteria/openrisc/orpsocv2/rtl/verilog/include
+-i /home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/bench/verilog/include
+-i /home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/sw/bootrom
+-i /home/soteria/openrisc/orpsocv2/bench/verilog/include
+-i /home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/isim/include
+-i /opt/Xilinx/14.7/ISE_DS/ISE/verilog/src
+-L unisims_ver
+-L xilinxcorelib_ver
+-L simprims_ver
+-L unimacro_ver
+-L secureip
+-prj /home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/isim/project/orpsoc.prj
+

@@ -1,0 +1,3883 @@
+ISim P.20131013 (signature 0xfbc00daa)
+This is a Full version of ISim.
+WARNING: File "/home/soteria/openrisc/orpsocv2/rtl/verilog/ethmac/ethmac.v" Line 461.  For instance ethmac0/ethreg1/, width 32 of formal port dbg_dat is not equal to width 1 of actual signal wb_dbg_dat0.
+WARNING:  For instance tx_fifo/fifo0/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo0/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo1/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo1/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo2/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo2/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo3/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance tx_fifo/fifo3/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo0/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo0/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo1/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo1/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo2/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo2/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo3/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo0/fifo3/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo0/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo0/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo1/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo1/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo2/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo2/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo3/, width 4 of formal port read_address is not equal to width 5 of actual constant.
+WARNING:  For instance rx_fifo1/fifo3/, width 4 of formal port write_address is not equal to width 5 of actual constant.
+Time resolution is 1 ps
+Simulator is doing circuit initialization process.
+Block Memory Generator CORE Generator module orpsoc_testbench.dut.xilinx_ddr2_0.xilinx_ddr2_if0.cache_mem0.inst.blk_mem_gen_v4_3_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+The 200 us wait period required before CKE goes active has been skipped in Simulation
+
+WARNING: at 0 ps: file ../out/or1200-simple-general.log could not be opened
+
+
+Memory preloaded using readmemh
+WARNING: File flash.in referenced on /home/soteria/openrisc/orpsocv2/bench/verilog/AT26DFxxx.v at line 295 cannot be opened for reading. Please ensure that this file is available in the current working directory.
+* Starting simulation of design RTL.
+* Test: or1200-simple
+
+Finished circuit initialization process.
+(1000.0 ps)(orpsoc_testbench.eth_phy0)Ethernet link is up!
+(1000.0 ps)(orpsoc_testbench.eth_phy0)PHY configured to 100 Mbps!
+Input Error : RST on instance orpsoc_testbench.dut.xilinx_ddr2_0.xilinx_ddr2_if0.ddr2_mig.memc3_infrastructure_inst.u_pll_adv at time 175000.0 ps must be asserted at least for 10 ns.
+orpsoc_testbench.u_mem0.cmd_task: at time 278126.0 ps WARNING: 200 us is required before CKE goes active.
+orpsoc_testbench.u_mem0.cmd_task: at time 761876.0 ps ERROR: NOP, Deselect, or Refresh is required when CKE goes inactive.
+orpsoc_testbench.u_mem0.cmd_task: at time 810626.0 ps WARNING: 200 us is required before CKE goes active.
+1375000.0 ps: BRANCHOP_JR: pc <= operand_b 00000100
+1395000.0 ps: BRANCHOP_JR: pc <= operand_b 00000100
+(39280000.0 ps) * DDR2 RAM preloaded
+44795000.0 ps: BRANCHOP_JR: pc <= operand_b 00002028
+44815000.0 ps: BRANCHOP_JR: pc <= operand_b 00002028
+lwz_check - id_addrbase: 00004020, id_addrofs: 00000000
+lwz_check - id_addrbase: 00004024, id_addrofs: 00000000
+sw_check - id_addrbase: 00006314, id_addrofs: 00000000
+Or1200 IC enabled at 567895000.0 ps
+Or1200 DC enabled at 713355000.0 ps
+713435000.0 ps: BRANCHOP_JR: pc <= operand_b 0000205c
+713435000.0 ps: BRANCHOP_JR: pc <= operand_b 0000205c
+713455000.0 ps: BRANCHOP_JR: pc <= operand_b 0000205c
+sw_check - id_addrbase: 00006ccc, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cd0, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cd4, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cd8, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cdc, id_addrofs: 00000000
+sw_check - id_addrbase: 00006ce0, id_addrofs: 00000000
+sw_check - id_addrbase: 00006ce4, id_addrofs: 00000000
+sw_check - id_addrbase: 00006ce8, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cec, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cf0, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cf4, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cf8, id_addrofs: 00000000
+sw_check - id_addrbase: 00006cfc, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d00, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d04, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d08, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d0c, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d10, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d14, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d18, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d1c, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d20, id_addrofs: 00000000
+sw_check - id_addrbase: 00006d24, id_addrofs: 00000000
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+lwz_check - id_addrbase: 0000631c, id_addrofs: 00000000
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ce0
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff8
+lwz_check - id_addrbase: 0000631c, id_addrofs: 00000000
+sw_check - id_addrbase: 00006320, id_addrofs: 00000004
+sw_check - id_addrbase: 00006320, id_addrofs: 00000000
+sw_check - id_addrbase: 00006320, id_addrofs: 00000008
+sw_check - id_addrbase: 00006320, id_addrofs: 0000000c
+sw_check - id_addrbase: 00006320, id_addrofs: 00000010
+sw_check - id_addrbase: 00006320, id_addrofs: 00000030
+sw_check - id_addrbase: 00006320, id_addrofs: 00000034
+sw_check - id_addrbase: 00006320, id_addrofs: 00000038
+sw_check - id_addrbase: 00006320, id_addrofs: 0000003c
+sw_check - id_addrbase: 00006320, id_addrofs: 00000040
+sw_check - id_addrbase: 00006320, id_addrofs: 00000044
+sw_check - id_addrbase: 00006320, id_addrofs: 00000048
+sw_check - id_addrbase: 00006320, id_addrofs: 0000004c
+sw_check - id_addrbase: 00006320, id_addrofs: 00000050
+sw_check - id_addrbase: 00006320, id_addrofs: 00000054
+sw_check - id_addrbase: 00006320, id_addrofs: 00000058
+sw_check - id_addrbase: 00006320, id_addrofs: 0000005c
+sw_check - id_addrbase: 00006334, id_addrofs: 00000000
+sw_check - id_addrbase: 00006334, id_addrofs: 00000004
+sw_check - id_addrbase: 00006334, id_addrofs: 00000008
+sw_check - id_addrbase: 00006334, id_addrofs: 0000000c
+sw_check - id_addrbase: 00006334, id_addrofs: 00000010
+sw_check - id_addrbase: 00006334, id_addrofs: 00000014
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000639c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000010
+lwz_check - id_addrbase: 0000631c, id_addrofs: 00000000
+sw_check - id_addrbase: 00006320, id_addrofs: 000000a0
+sw_check - id_addrbase: 00006320, id_addrofs: 000000a4
+sw_check - id_addrbase: 00006320, id_addrofs: 000000a8
+sw_check - id_addrbase: 00006320, id_addrofs: 000000bc
+sw_check - id_addrbase: 00006320, id_addrofs: 000000c0
+sw_check - id_addrbase: 00006320, id_addrofs: 000000c4
+sw_check - id_addrbase: 00006320, id_addrofs: 000000c8
+sw_check - id_addrbase: 00006320, id_addrofs: 000000cc
+sw_check - id_addrbase: 00006320, id_addrofs: 000000d0
+sw_check - id_addrbase: 00006320, id_addrofs: 000000f8
+sw_check - id_addrbase: 00006320, id_addrofs: 000000fc
+sw_check - id_addrbase: 00006320, id_addrofs: 00000100
+sw_check - id_addrbase: 00006320, id_addrofs: 00000104
+sw_check - id_addrbase: 00006320, id_addrofs: 00000108
+sw_check - id_addrbase: 00006320, id_addrofs: 0000010c
+sw_check - id_addrbase: 00006320, id_addrofs: 00000110
+sw_check - id_addrbase: 00006320, id_addrofs: 00000114
+sw_check - id_addrbase: 00006320, id_addrofs: 00000118
+sw_check - id_addrbase: 00006320, id_addrofs: 0000011c
+sw_check - id_addrbase: 00006320, id_addrofs: 000000f4
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000014
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000018
+sw_check - id_addrbase: 0000639c, id_addrofs: 0000001c
+sw_check - id_addrbase: 0000639c, id_addrofs: 00000020
+sw_check - id_addrbase: 00006320, id_addrofs: 00000148
+sw_check - id_addrbase: 00006320, id_addrofs: 0000014c
+sw_check - id_addrbase: 00006320, id_addrofs: 00000150
+sw_check - id_addrbase: 00006320, id_addrofs: 00000154
+sw_check - id_addrbase: 00006320, id_addrofs: 000002d4
+sw_check - id_addrbase: 00006320, id_addrofs: 000001d4
+sw_check - id_addrbase: 00006320, id_addrofs: 000002dc
+sw_check - id_addrbase: 00006320, id_addrofs: 000002e0
+sw_check - id_addrbase: 00006320, id_addrofs: 000002e4
+sw_check - id_addrbase: 00006320, id_addrofs: 000002e8
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003e64
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffff8
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+sw_check - id_addrbase: 0000660c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000660c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000660c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000660c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000661c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000661c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000661c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000661c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000662c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000662c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000662c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000662c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000663c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000663c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000663c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000663c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000664c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000664c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000664c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000664c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000665c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000665c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000665c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000665c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000666c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000666c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000666c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000666c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000667c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000667c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000667c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000667c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000668c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000668c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000668c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000668c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000669c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000669c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000669c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000669c, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066ac, id_addrofs: 00000000
+sw_check - id_addrbase: 000066ac, id_addrofs: 00000004
+sw_check - id_addrbase: 000066ac, id_addrofs: 00000008
+sw_check - id_addrbase: 000066ac, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066bc, id_addrofs: 00000000
+sw_check - id_addrbase: 000066bc, id_addrofs: 00000004
+sw_check - id_addrbase: 000066bc, id_addrofs: 00000008
+sw_check - id_addrbase: 000066bc, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066cc, id_addrofs: 00000000
+sw_check - id_addrbase: 000066cc, id_addrofs: 00000004
+sw_check - id_addrbase: 000066cc, id_addrofs: 00000008
+sw_check - id_addrbase: 000066cc, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066dc, id_addrofs: 00000000
+sw_check - id_addrbase: 000066dc, id_addrofs: 00000004
+sw_check - id_addrbase: 000066dc, id_addrofs: 00000008
+sw_check - id_addrbase: 000066dc, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066ec, id_addrofs: 00000000
+sw_check - id_addrbase: 000066ec, id_addrofs: 00000004
+sw_check - id_addrbase: 000066ec, id_addrofs: 00000008
+sw_check - id_addrbase: 000066ec, id_addrofs: 0000000c
+sw_check - id_addrbase: 000066fc, id_addrofs: 00000000
+sw_check - id_addrbase: 000066fc, id_addrofs: 00000004
+sw_check - id_addrbase: 000066fc, id_addrofs: 00000008
+sw_check - id_addrbase: 000066fc, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000670c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000670c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000670c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000670c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000671c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000671c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000671c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000671c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000672c, id_addrofs: 00000000
+sw_check - id_addrbase: 0000672c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000672c, id_addrofs: 00000008
+sw_check - id_addrbase: 0000672c, id_addrofs: 0000000c
+sw_check - id_addrbase: 0000673c, id_addrofs: 00000000
+sw_check - id_addrbase: 00006740, id_addrofs: 00000000
+765395000.0 ps: BRANCHOP_JR: pc <= operand_b 00002084
+765395000.0 ps: BRANCHOP_JR: pc <= operand_b 00002084
+765415000.0 ps: BRANCHOP_JR: pc <= operand_b 00002084
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffffc
+sw_check - id_addrbase: 007ffffc, id_addrofs: 00000000
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 00002008
+sw_check - id_addrbase: 007ffffc, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000021c8
+lwz_check - id_addrbase: 00006310, id_addrofs: 00000000
+lwz_check - id_addrbase: 007ffffc, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000222c
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000222c
+775555000.0 ps: BRANCHOP_JR: pc <= operand_b 00002014
+775555000.0 ps: BRANCHOP_JR: pc <= operand_b 00002014
+775575000.0 ps: BRANCHOP_JR: pc <= operand_b 00002014
+sw_check - id_addrbase: 007ffffc, id_addrofs: fffffff8
+sw_check - id_addrbase: 007ffffc, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 0000427c
+lwz_check - id_addrbase: 00006304, id_addrofs: fffffffc
+lwz_check - id_addrbase: 007ffffc, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000042b4
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffffc
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffff8
+ex_pc: 000042b4
+777075000.0 ps: BRANCHOP_JR: pc <= operand_b 0000201c
+777075000.0 ps: BRANCHOP_JR: pc <= operand_b 0000201c
+777095000.0 ps: BRANCHOP_JR: pc <= operand_b 0000201c
+lwz_check - id_addrbase: 007ffffc, id_addrofs: fffffff8
+lwz_check - id_addrbase: 007ffffc, id_addrofs: 00000000
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb:  0
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 0000201c
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb:  0
+ex_addrbase: 007ffffc
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffffc
+ex_pc: 0000201c
+777335000.0 ps: BRANCHOP_JR: pc <= operand_b 0000208c
+777335000.0 ps: BRANCHOP_JR: pc <= operand_b 0000208c
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002384
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002398
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002398
+sw_check - id_addrbase: 00800000, id_addrofs: ffffffe4
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff8
+sw_check - id_addrbase: 00800000, id_addrofs: ffffffec
+lwz_check - id_addrbase: 000042f4, id_addrofs: 00000000
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff0
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff4
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+sw_check - id_addrbase: 00800000, id_addrofs: ffffffe8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 000032b0
+lwz_check - id_addrbase: 00006320, id_addrofs: 00000148
+sw_check - id_addrbase: 00006320, id_addrofs: 00000148
+lwz_check - id_addrbase: 0000646c, id_addrofs: 00000004
+sw_check - id_addrbase: 0000646c, id_addrofs: 00000004
+sw_check - id_addrbase: 00006474, id_addrofs: 00000000
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003314
+lwz_check - id_addrbase: 00800000, id_addrofs: ffffffe4
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003314
+lwz_check - id_addrbase: 00800000, id_addrofs: ffffffe8
+lwz_check - id_addrbase: 00800000, id_addrofs: ffffffec
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffff0
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffff4
+788755000.0 ps: BRANCHOP_JR: pc <= operand_b 00002098
+788755000.0 ps: BRANCHOP_JR: pc <= operand_b 00002098
+788775000.0 ps: BRANCHOP_JR: pc <= operand_b 00002098
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffff8
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff8
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003ee8
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 00004028, id_addrofs: 00000000
+lwz_check - id_addrbase: 00004030, id_addrofs: 00000000
+sw_check - id_addrbase: 007ffff4, id_addrofs: 00000000
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw:  0
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 0000417c
+lwz_check - id_addrbase: 007ffff4, id_addrofs: 00000000
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb:  0
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 00004268
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb:  0
+ex_addrbase: 007ffff4
+ex_addrofs: 00000000
+dcpu_adr_o: 007ffff4
+ex_pc: 00004268
+811095000.0 ps: BRANCHOP_JR: pc <= operand_b 00003f38
+811095000.0 ps: BRANCHOP_JR: pc <= operand_b 00003f38
+811115000.0 ps: BRANCHOP_JR: pc <= operand_b 00003f38
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 0000402c, id_addrofs: 00000000
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003f8c
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00003f8c
+812875000.0 ps: BRANCHOP_JR: pc <= operand_b 000020b8
+812875000.0 ps: BRANCHOP_JR: pc <= operand_b 000020b8
+812895000.0 ps: BRANCHOP_JR: pc <= operand_b 000020b8
+lwz_check - id_addrbase: 00800000, id_addrofs: fffffff8
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff8
+sw_check - id_addrbase: 00800000, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 00800000
+ex_addrofs: fffffffc
+dcpu_adr_o: 007ffffc
+ex_pc: 00002258
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff4
+sw_check - id_addrbase: 00800000, id_addrofs: fffffff0
+sw_check - id_addrbase: 007ffff0, id_addrofs: fffffff8
+sw_check - id_addrbase: 007ffff0, id_addrofs: fffffffc
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+SW for r9
+ex_lsu_op: e
+ex_rf_addrw: 31
+ex_rf_addra:  1
+ex_rf_addrb:  9
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 000022a4
+sw_check - id_addrbase: 007fffdc, id_addrofs: fffffffc
+lwz_check - id_addrbase: 007fffdc, id_addrofs: fffffffc
+820215000.0 ps: BRANCHOP_JR: pc <= operand_b 000022b4
+820215000.0 ps: BRANCHOP_JR: pc <= operand_b 000022b4
+820235000.0 ps: BRANCHOP_JR: pc <= operand_b 000022b4
+sw_check - id_addrbase: 007ffff0, id_addrofs: ffffffec
+sw_check - id_addrbase: 007ffff0, id_addrofs: fffffff0
+sw_check - id_addrbase: 007ffff0, id_addrofs: fffffff4
+lwz_check - id_addrbase: 007ffff0, id_addrofs: fffffff4
+sw_check - id_addrbase: 007ffff0, id_addrofs: fffffff4
+lwz_check - id_addrbase: 007ffff0, id_addrofs: fffffff4
+lwz_check - id_addrbase: 007ffff0, id_addrofs: fffffff4
+lwz_check - id_addrbase: 007ffff0, id_addrofs: fffffff8
+lwz_check - id_addrbase: 007ffff0, id_addrofs: fffffffc
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 0000230c
+***********************Return address has been modified before PC=0000230c
+LWZ or LWS for r9
+ex_lsu_op: 6
+ex_rf_addrw:  9
+ex_rf_addra:  1
+ex_rf_addrb: 31
+ex_addrbase: 007ffff0
+ex_addrofs: fffffffc
+dcpu_adr_o: 007fffec
+ex_pc: 0000230c
+821935000.0 ps: BRANCHOP_JR: pc <= operand_b 04002270
+821935000.0 ps: BRANCHOP_JR: pc <= operand_b 04002270
+821955000.0 ps: BRANCHOP_JR: pc <= operand_b 04002270
+*
+* or1200_monitor : OR1200 crash detected (suspected CPU PC corruption)
+*
+Stopped at time : 897435 ns : File "/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/bench/verilog/or1200_monitor.v" Line 199

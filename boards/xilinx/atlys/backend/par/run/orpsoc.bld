@@ -1,0 +1,167 @@
+Release 13.4 ngdbuild O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/13.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -p
+xc6slx45-2-csg324 -sd
+/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run/../../../bac
+kend/bin -uc ../bin/atlys.ucf
+/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run/../../../syn
+/xst/run/orpsoc.ngc orpsoc.ngd
+
+Reading NGO file
+"/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/syn/xst/run/orpsoc.ngc" ...
+Loading design module
+"/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run/../../../sy
+n/xst/run/xilinx_ddr2_if_cache.ngc"...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "../bin/atlys.ucf" ...
+WARNING:NgdBuild:931 - The value of SIM_DEVICE on instance
+   'xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv'
+   of type PLL_ADV has been changed from 'VIRTEX5' to 'SPARTAN6' to correct
+   post-ngdbuild and timing simulation for this primitive.  In order for
+   functional simulation to be correct, the value of SIM_DEVICE should be
+   changed in this same manner in the source netlist or constraint file.
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'sys_clk_in', used in period specification
+   'TS_sys_clk_in', was traced into DCM_SP instance clkgen0/dcm0. The following
+   new TNM groups and period specifications were generated at the DCM_SP
+   output(s): 
+   CLKFX: <TIMESPEC TS_clkgen0_dcm0_clkfx_prebufg = PERIOD
+   "clkgen0_dcm0_clkfx_prebufg" TS_sys_clk_in * 2.666666667 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'sys_clk_in', used in period specification
+   'TS_sys_clk_in', was traced into DCM_SP instance clkgen0/dcm0. The following
+   new TNM groups and period specifications were generated at the DCM_SP
+   output(s): 
+   CLKDV: <TIMESPEC TS_clkgen0_dcm0_clkdv_prebufg = PERIOD
+   "clkgen0_dcm0_clkdv_prebufg" TS_sys_clk_in / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK3', used in period specification
+   'TS_SYS_CLK3', was traced into PLL_ADV instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_mcb_drp_c
+   lk_bufg_in = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_mcb_drp_clk
+   _bufg_in" TS_S...>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK3', used in period specification
+   'TS_SYS_CLK3', was traced into PLL_ADV instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_18
+   0 = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_180"
+   TS_SYS_CLK3 / 2 PHASE ...>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK3', used in period specification
+   'TS_SYS_CLK3', was traced into PLL_ADV instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_0
+   = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_0"
+   TS_SYS_CLK3 / 2 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'SYS_CLK3', used in period specification
+   'TS_SYS_CLK3', was traced into PLL_ADV instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk0_bufg
+   _in = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk0_bufg_i
+   n" TS_SYS_CLK3 / 0.12...>
+
+INFO:ConstraintSystem:178 - TNM 'clkgen0_dcm0_clkfx_prebufg', used in period
+   specification 'TS_clkgen0_dcm0_clkfx_prebufg', was traced into PLL_ADV
+   instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_mcb_drp_c
+   lk_bufg_in_0 = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_mcb_drp_clk
+   _bufg_in_0" ...>
+
+INFO:ConstraintSystem:178 - TNM 'clkgen0_dcm0_clkfx_prebufg', used in period
+   specification 'TS_clkgen0_dcm0_clkfx_prebufg', was traced into PLL_ADV
+   instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_18
+   0_0 = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_180_
+   0" TS_clkgen0_dcm0_cl...>
+
+INFO:ConstraintSystem:178 - TNM 'clkgen0_dcm0_clkfx_prebufg', used in period
+   specification 'TS_clkgen0_dcm0_clkfx_prebufg', was traced into PLL_ADV
+   instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_0_
+   0 = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk_2x_0_0"
+   TS_clkgen0_dcm0_clkfx_...>
+
+INFO:ConstraintSystem:178 - TNM 'clkgen0_dcm0_clkfx_prebufg', used in period
+   specification 'TS_clkgen0_dcm0_clkfx_prebufg', was traced into PLL_ADV
+   instance
+   xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv.
+   The following new TNM groups and period specifications were generated at the
+   PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC
+   TS_xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk0_bufg
+   _in_0 = PERIOD
+   "xilinx_ddr2_0_xilinx_ddr2_if0_ddr2_mig_memc3_infrastructure_inst_clk0_bufg_i
+   n_0" TS_clkgen0_dcm...>
+
+Done...
+
+INFO:NgdBuild:1222 - Setting CLKIN_PERIOD attribute associated with DCM instance
+   clkgen0/dcm0 to 10.000000 ns based on the period specification (<TIMESPEC
+   TS_sys_clk_in = PERIOD "sys_clk_in" 100 MHz HIGH 50 %;>
+   [../bin/atlys.ucf(299)]).
+WARNING:NgdBuild:1440 - User specified non-default attribute value (3.75) was
+   detected for the CLKIN1_PERIOD attribute on PLL
+   "xilinx_ddr2_0/xilinx_ddr2_if0/ddr2_mig/memc3_infrastructure_inst/u_pll_adv".
+    This does not match the PERIOD constraint value (266.666667 MHz.).  The
+   uncertainty calculation will use the PERIOD constraint value.  This could
+   result in incorrect uncertainty calculated for PLL output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'N2277' has no driver
+WARNING:NgdBuild:452 - logical net 'N2279' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   4
+
+Total memory usage is 474416 kilobytes
+
+Writing NGD file "orpsoc.ngd" ...
+Total REAL time to NGDBUILD completion:  10 sec
+Total CPU time to NGDBUILD completion:   9 sec
+
+Writing NGDBUILD log file "orpsoc.bld"...

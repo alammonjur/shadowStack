@@ -1,0 +1,14 @@
+# Output products list for <xilinx_ddr2_if_cache>
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+xilinx_ddr2_if_cache.asy
+xilinx_ddr2_if_cache.gise
+xilinx_ddr2_if_cache.ngc
+xilinx_ddr2_if_cache.v
+xilinx_ddr2_if_cache.veo
+xilinx_ddr2_if_cache.vhd
+xilinx_ddr2_if_cache.vho
+xilinx_ddr2_if_cache.xco
+xilinx_ddr2_if_cache.xise
+xilinx_ddr2_if_cache_flist.txt
+xilinx_ddr2_if_cache_xmdf.tcl

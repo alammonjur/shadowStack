@@ -1,0 +1,8 @@
+INTSTYLE=silent
+INFILE=/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run/orpsoc.ncd
+OUTFILE=/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run/orpsoc.bit
+FAMILY=Spartan6
+PART=xc6slx45-2csg324
+WORKINGDIR=/home/soteria/openrisc/orpsocv2/boards/xilinx/atlys/backend/par/run
+LICENSE=WebPack
+USER_INFO=__0_0_0

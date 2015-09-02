@@ -1,0 +1,171 @@
+`include "timescale.v"
+`include "or1200_defines.v"
+
+module or1200_dfi(
+    clk, rst,
+    dcpu_adr_o, ex_lsu_op,
+    ex_addrbase, ex_addrofs,
+    ex_insn, ex_pc
+);
+
+// Inputs
+input   clk;    // clock
+input   rst;    // reset signal
+input[31:0]     ex_insn;    // instruction from execute stage
+input[31:0]     dcpu_adr_o; // memory address calculated from adding offset to register value
+input[`OR1200_LSUOP_WIDTH-1:0]  ex_lsu_op;  // load/store opcode from decode stage
+input[31:0]     ex_addrbase;    // for debugging purposes
+input[31:0]     ex_addrofs;     // for debugging purposes
+input[31:0]     ex_pc;          // for debugging purposes
+
+// Internal regs and wires
+reg[(1<<24)-1:0]    tags;   // table of 1-bit tags, each associated with a stack location. Assuming that
+                            // the stack has 32-bit address space, the table requires 2^32 slots
+reg     modified = 1'b0;
+
+always @(posedge clk or `OR1200_RST_EVENT rst) begin
+    if (rst == `OR1200_RST_VALUE) begin
+    end
+    else begin
+        // check opcode
+        case (ex_lsu_op)
+            // store byte
+            `OR1200_LSUOP_SB: begin
+                if (ex_insn[15:11] == 5'd9) begin
+                    $display("SB for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);;
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+
+                    tags[dcpu_adr_o]    = 1'b0;
+                end
+                else begin
+                    tags[dcpu_adr_o]    = 1'b1;
+                end
+            end
+            
+            // store half-word
+            `OR1200_LSUOP_SH: begin
+                if (ex_insn[15:11] == 5'd9) begin
+                    $display("SH for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);;
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+                    
+                    tags[dcpu_adr_o+:2] = 2'b00;
+                end
+                else begin
+                    tags[dcpu_adr_o+:2] = 2'b11;
+                end
+            end
+
+            // store word
+            `OR1200_LSUOP_SW: begin
+                // Encountering store instructions using link register means that the return address will be
+                // pushed into the stack. For these instructions, clear the tag bit of the stack location of
+                // where the return address would be stored. The attacker cannot modify the link register
+                // directly, so the return address in the link register is correct at the time of a new function
+                // call.
+                if (ex_insn[15:11] == 5'd9) begin // data submission reg r9
+                    $display("SW for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);;
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+
+                    tags[dcpu_adr_o+:4] = 4'b0000;
+                end
+                // all other stores set the tag bits of the stack location of where the value in the source
+                // register of the instruction would be stored
+                else begin
+                    tags[dcpu_adr_o+:4] = 4'b1111;
+                end
+            end
+
+            // load byte
+            `OR1200_LSUOP_LBZ, `OR1200_LSUOP_LBS: begin
+                if (ex_insn[25:21] == 5'd9) begin
+                    $display("LBZ or LBS for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+
+                    if (tags[dcpu_adr_o] != 1'b0) begin
+                        modified <= 1'b1;
+                    end
+                end
+            end
+
+            // load half-word
+            `OR1200_LSUOP_LHZ, `OR1200_LSUOP_LHS: begin
+                if (ex_insn[25:21] == 5'd9) begin
+                    $display("LHZ or LHS for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+
+                    if (tags[dcpu_adr_o+:2] != 2'b00) begin
+                        modified <= 1'b1;
+                    end
+                end
+            end
+
+            // load word
+            `OR1200_LSUOP_LWZ, `OR1200_LSUOP_LWS: begin
+                // Only check the corresponding tag for instructions that load return address from memory to
+                // link register. Link register would be the destination register in this case.
+                if (ex_insn[25:21] == 5'd9) begin
+                    $display("LWZ or LWS for r9");
+                    $display("ex_lsu_op: %h", ex_lsu_op);
+                    $display("rf_addrw: %d", ex_insn[25:21]);
+                    $display("rf_addra: %d", ex_insn[20:16]);
+                    $display("rf_addrb: %d", ex_insn[15:11]);
+                    $display("ex_addrbase: %h", ex_addrbase);
+                    $display("ex_addrofs: %h", ex_addrofs);
+                    $display("dcpu_adr_o: %h", dcpu_adr_o);
+                    $display("ex_pc: %h", ex_pc);
+
+                    // if tag bit is 1, that means the return address has been modified since the link register
+                    // store instruction.
+                    if (tags[dcpu_adr_o+:4] != 4'b0000) begin
+                        modified <= 1'b1;
+                    end
+                end
+            end
+        endcase
+    end
+end
+
+always @(modified) begin
+    if (modified == 1'b1) begin
+        modified <= 1'b0;
+        $display("***********************Return address has been modified before PC=%h", ex_pc);
+    end
+end
+
+endmodule
+

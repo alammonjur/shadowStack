@@ -1,0 +1,26 @@
+Release 13.4 Drc O.87xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Wed Jul 29 16:45:37 2015
+
+drc -z orpsoc.ncd orpsoc.pcf
+
+WARNING:PhysDesignRules:367 - The signal <spi0/wfifo/Mram_mem1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal <spi0/rfifo/Mram_mem1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <uart16550_0/regs/transmitter/fifo_tx/tfifo/Mram_ram1_RAMD_D1_O> is
+   incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <uart16550_0/regs/receiver/fifo_rx/rfifo/Mram_ram1_RAMD_D1_O> is incomplete.
+   The signal does not drive any load pins in the design.
+INFO:PhysDesignRules:1861 - To achieve optimal frequency synthesis performance
+   with the CLKFX and CLKFX180 outputs of the DCM comp clkgen0/dcm0, consult the
+   device Data Sheet.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+DRC detected 0 errors and 5 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

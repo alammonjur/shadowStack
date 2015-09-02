@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_bytebus.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_bytebus.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_bytebus.v&quot; line 47
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v</arg>&quot; Line <arg fmt="%d" index="2">36</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v&quot; line 36
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v</arg>&quot; Line <arg fmt="%d" index="2">37</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v&quot; line 37
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v</arg>&quot; Line <arg fmt="%d" index="2">38</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v&quot; line 38
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v</arg>&quot; Line <arg fmt="%d" index="2">39</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/clkgen.v&quot; line 39
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v&quot; line 46
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_registers.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_registers.v</arg>&quot; Line <arg fmt="%d" index="2">70</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_registers.v&quot; line 70
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_crc32_d1.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v</arg>&quot; Line <arg fmt="%d" index="2">205</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v&quot; line 205
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v</arg>&quot; Line <arg fmt="%d" index="2">206</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v&quot; line 206
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v</arg>&quot; Line <arg fmt="%d" index="2">46</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v&quot; line 46
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/intgen.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v</arg>&quot; Line <arg fmt="%d" index="2">104</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/tap_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v&quot; line 104
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cfgr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cfgr.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cfgr.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v&quot; line 54
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_ram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_ram.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_ram.v&quot; line 54
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_tag.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_tag.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_tag.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_top.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_top.v&quot; line 55
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_tlb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_tlb.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_tlb.v&quot; line 54
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dpram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dpram.v</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dpram.v&quot; line 58
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v</arg>&quot; Line <arg fmt="%d" index="2">49</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v&quot; line 49
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_addsub.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_arith.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_fcmp.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_div.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_mul.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_freeze.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_freeze.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_freeze.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_gmultp2_32x32.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_gmultp2_32x32.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_gmultp2_32x32.v&quot; line 54
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_ram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_ram.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_ram.v&quot; line 55
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_tag.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_tag.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_tag.v&quot; line 55
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v&quot; line 51
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_if.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_if.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_if.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_tlb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_tlb.v</arg>&quot; Line <arg fmt="%d" index="2">92</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_tlb.v&quot; line 92
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_top.v</arg>&quot; Line <arg fmt="%d" index="2">47</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_immu_top.v&quot; line 47
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_lsu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_lsu.v</arg>&quot; Line <arg fmt="%d" index="2">54</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_lsu.v&quot; line 54
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mem2reg.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mem2reg.v</arg>&quot; Line <arg fmt="%d" index="2">88</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mem2reg.v&quot; line 88
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mult_mac.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mult_mac.v</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_mult_mac.v&quot; line 58
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_operandmuxes.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_operandmuxes.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_operandmuxes.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pic.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pic.v</arg>&quot; Line <arg fmt="%d" index="2">51</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pic.v&quot; line 51
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pm.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pm.v</arg>&quot; Line <arg fmt="%d" index="2">73</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_pm.v&quot; line 73
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_qmem_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_qmem_top.v</arg>&quot; Line <arg fmt="%d" index="2">77</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_qmem_top.v&quot; line 77
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_reg2mem.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_reg2mem.v</arg>&quot; Line <arg fmt="%d" index="2">79</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_reg2mem.v&quot; line 79
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_rf.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_rf.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_rf.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sb.v</arg>&quot; Line <arg fmt="%d" index="2">53</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sb.v&quot; line 53
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v</arg>&quot; Line <arg fmt="%d" index="2">1</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v&quot; line 1
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v</arg>&quot; Line <arg fmt="%d" index="2">2</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v&quot; line 2
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram.v</arg>&quot; Line <arg fmt="%d" index="2">58</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram.v&quot; line 58
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram_32_bw.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram_32_bw.v</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_spram_32_bw.v&quot; line 59
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sprs.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sprs.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_sprs.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v</arg>&quot; Line <arg fmt="%d" index="2">55</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v&quot; line 55
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_tt.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_tt.v</arg>&quot; Line <arg fmt="%d" index="2">48</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_tt.v&quot; line 48
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v</arg>&quot; Line <arg fmt="%d" index="2">59</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v&quot; line 59
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wbmux.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wbmux.v</arg>&quot; Line <arg fmt="%d" index="2">52</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wbmux.v&quot; line 52
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v</arg>&quot; Line <arg fmt="%d" index="2">36</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v&quot; line 36
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v</arg>&quot; Line <arg fmt="%d" index="2">50</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc-params.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v&quot; line 50
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/raminfr.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart16550.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart16550.v</arg>&quot; Line <arg fmt="%d" index="2">138</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart16550.v&quot; line 138
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_debug_if.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_debug_if.v</arg>&quot; Line <arg fmt="%d" index="2">87</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_debug_if.v&quot; line 87
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_receiver.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_receiver.v</arg>&quot; Line <arg fmt="%d" index="2">196</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_receiver.v&quot; line 196
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_regs.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_regs.v</arg>&quot; Line <arg fmt="%d" index="2">226</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_regs.v&quot; line 226
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_rfifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_rfifo.v</arg>&quot; Line <arg fmt="%d" index="2">148</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_rfifo.v&quot; line 148
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_sync_flops.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_sync_flops.v</arg>&quot; Line <arg fmt="%d" index="2">68</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/timescale.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_sync_flops.v&quot; line 68
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_tfifo.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_tfifo.v</arg>&quot; Line <arg fmt="%d" index="2">142</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_tfifo.v&quot; line 142
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_transmitter.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_transmitter.v</arg>&quot; Line <arg fmt="%d" index="2">152</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_transmitter.v&quot; line 152
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_wb.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_wb.v</arg>&quot; Line <arg fmt="%d" index="2">140</arg>. <arg fmt="%s" index="3">Include file found: &apos;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_defines.v&apos; in file &quot;/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/uart_wb.v&quot; line 140
+</arg>
+</msg>
+
+</messages>
+

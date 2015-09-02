@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="0" delta="new" >Changing &apos;<arg fmt="%s" index="1">HDLCompiler:1330</arg>&apos; to warning
+</msg>
+
+<msg type="info" file="Xst" num="0" delta="new" >Part-select index evaluated to out of bound value may lead to incorrect synthesis results; it is recommended not to use them in RTL
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_ibus.v" Line 181: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 274: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_adr_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 275: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_dat_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 276: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_sel_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 277: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_we_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 278: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_cyc_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 279: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_stb_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 280: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_cti_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 281: Assignment to <arg fmt="%s" index="1">wbs_i_rom0_bte_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/arbiter_dbus.v" Line 915: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">13</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 349: Assignment to <arg fmt="%s" index="1">wbm_d_dbg_rty_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 419: Assignment to <arg fmt="%s" index="1">wbs_d_uart0_cti_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 420: Assignment to <arg fmt="%s" index="1">wbs_d_uart0_bte_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 431: Assignment to <arg fmt="%s" index="1">wbs_d_intgen_cti_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 432: Assignment to <arg fmt="%s" index="1">wbs_d_intgen_bte_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/jtag_tap.v" Line 568: Assignment to <arg fmt="%s" index="1">bypass_select</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 483: Assignment to <arg fmt="%s" index="1">jtag_tap_capture_dr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 156: Assignment to <arg fmt="%s" index="1">retry_cnt</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 210: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 223: Signal &lt;<arg fmt="%s" index="1">wb_fsm_idle</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 228: Signal &lt;<arg fmt="%s" index="1">wb_fsm_trans</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 230: Signal &lt;<arg fmt="%s" index="1">wb_fsm_idle</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 233: Signal &lt;<arg fmt="%s" index="1">wb_fsm_trans</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 245: Signal &lt;<arg fmt="%s" index="1">wb_fsm_last</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 248: Signal &lt;<arg fmt="%s" index="1">wb_fsm_idle</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 250: Signal &lt;<arg fmt="%s" index="1">wb_fsm_trans</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 253: Signal &lt;<arg fmt="%s" index="1">wb_fsm_last</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 262: Signal &lt;<arg fmt="%s" index="1">wb_fsm_idle</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 264: Signal &lt;<arg fmt="%s" index="1">wb_fsm_last</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_wb_biu.v" Line 320: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_top.v" Line 225: Assignment to <arg fmt="%s" index="1">ic_inv_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 199: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 202: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ic_fsm.v" Line 238: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_genpc.v" Line 154: Assignment to <arg fmt="%s" index="1">genpc_refetch_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v" Line 206: Assignment to <arg fmt="%s" index="1">wb_void</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_ctrl.v" Line 485: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_cpu.v" Line 531: Assignment to <arg fmt="%s" index="1">id_mac_op</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v" Line 124: Assignment to <arg fmt="%s" index="1">comp_a</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_alu.v" Line 125: Assignment to <arg fmt="%s" index="1">comp_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 178: Assignment to <arg fmt="%s" index="1">fpu_op_is_arith</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 180: Assignment to <arg fmt="%s" index="1">fpu_op_is_comp</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 110: Assignment to <arg fmt="%s" index="1">s_expa_eq_expb</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 115: Assignment to <arg fmt="%s" index="1">s_fracta_1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 116: Assignment to <arg fmt="%s" index="1">s_fractb_1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_pre_norm_addsub.v" Line 121: Assignment to <arg fmt="%s" index="1">s_op_dn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_addsub.v" Line 103: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v" Line 166: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_addsub.v" Line 215: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v" Line 92: Assignment to <arg fmt="%s" index="1">s_signa_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_mul.v" Line 125: Result of <arg fmt="%d" index="1">6</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 254: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 261: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 316: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 327: Result of <arg fmt="%d" index="1">26</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_mul.v" Line 334: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v" Line 99: Assignment to <arg fmt="%s" index="1">s_sign_dvd_i</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_div.v" Line 131: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 142: Assignment to <arg fmt="%s" index="1">s_opa_dn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 143: Assignment to <arg fmt="%s" index="1">s_opb_dn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 152: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 155: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">10</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 226: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_div.v" Line 234: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">25</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_arith.v" Line 355: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v" Line 103: Assignment to <arg fmt="%s" index="1">qnan_r_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv_except.v" Line 106: Assignment to <arg fmt="%s" index="1">snan_r_b</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 157: Assignment to <arg fmt="%s" index="1">opa_00</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 201: Assignment to <arg fmt="%s" index="1">exp_in_80</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 203: Assignment to <arg fmt="%s" index="1">exp_out_00</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 208: Assignment to <arg fmt="%s" index="1">fract_out_00</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 289: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 290: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 290: Assignment to <arg fmt="%s" index="1">fi_ldz_mi22</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 291: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 292: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 292: Assignment to <arg fmt="%s" index="1">exp_out_mi1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 294: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 294: Assignment to <arg fmt="%s" index="1">exp_in_mi1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 295: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 295: Assignment to <arg fmt="%s" index="1">exp_out1_mi1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 307: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 313: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 315: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 323: Assignment to <arg fmt="%s" index="1">ldz_all</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_post_norm_intfloat_conv.v" Line 325: Assignment to <arg fmt="%s" index="1">fi_ldz_2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 283: Assignment to <arg fmt="%s" index="1">out_fixed</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 147: Input port <arg fmt="%s" index="1">opb[31]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu_intfloat_conv.v" Line 238: Input port <arg fmt="%s" index="1">opb_dn</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 371: Assignment to <arg fmt="%s" index="1">overflow_conv</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_fpu.v" Line 387: Assignment to <arg fmt="%s" index="1">unordered</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_except.v" Line 459: Assignment to <arg fmt="%s" index="1">extend_flush_last</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 47: Signal &lt;<arg fmt="%s" index="1">operand_b</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 48: Signal &lt;<arg fmt="%s" index="1">operand_b</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 51: Signal &lt;<arg fmt="%s" index="1">operand_b</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_shadowstk.v" Line 4: Empty module &lt;<arg fmt="%s" index="1">or1200_shadowstk</arg>&gt; remains a black box.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 639: Assignment to <arg fmt="%s" index="1">id_void</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 640: Assignment to <arg fmt="%s" index="1">id_insn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 641: Assignment to <arg fmt="%s" index="1">ex_void</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 644: Assignment to <arg fmt="%s" index="1">wb_insn</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 645: Assignment to <arg fmt="%s" index="1">wb_freeze</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 647: Assignment to <arg fmt="%s" index="1">ex_pc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 648: Assignment to <arg fmt="%s" index="1">wb_pc</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 651: Assignment to <arg fmt="%s" index="1">flushpipe</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 657: Assignment to <arg fmt="%s" index="1">du_except_trig</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 664: Assignment to <arg fmt="%s" index="1">du_lsu_store_dat</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 665: Assignment to <arg fmt="%s" index="1">du_lsu_load_dat</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 666: Assignment to <arg fmt="%s" index="1">abort_mvspr</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_top.v" Line 667: Assignment to <arg fmt="%s" index="1">abort_ex</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dmmu_top.v" Line 234: Assignment to <arg fmt="%s" index="1">dcpu_vpn_r</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 273: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 435: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 461: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 462: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 483: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_dc_fsm.v" Line 531: Result of <arg fmt="%d" index="1">5</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 636: Assignment to <arg fmt="%s" index="1">dmr2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 677: Assignment to <arg fmt="%s" index="1">dvr0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 690: Assignment to <arg fmt="%s" index="1">dvr1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 703: Assignment to <arg fmt="%s" index="1">dvr2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 716: Assignment to <arg fmt="%s" index="1">dvr3</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 729: Assignment to <arg fmt="%s" index="1">dvr4</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 742: Assignment to <arg fmt="%s" index="1">dvr5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 755: Assignment to <arg fmt="%s" index="1">dvr6</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 768: Assignment to <arg fmt="%s" index="1">dvr7</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 781: Assignment to <arg fmt="%s" index="1">dcr0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 794: Assignment to <arg fmt="%s" index="1">dcr1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 807: Assignment to <arg fmt="%s" index="1">dcr2</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 820: Assignment to <arg fmt="%s" index="1">dcr3</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 833: Assignment to <arg fmt="%s" index="1">dcr4</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 846: Assignment to <arg fmt="%s" index="1">dcr5</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 859: Assignment to <arg fmt="%s" index="1">dcr6</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 872: Assignment to <arg fmt="%s" index="1">dcr7</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 887: Assignment to <arg fmt="%s" index="1">dwcr0</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 902: Assignment to <arg fmt="%s" index="1">dwcr1</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1628: Assignment to <arg fmt="%s" index="1">du_hwbkpt_hold</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1739: Assignment to <arg fmt="%s" index="1">tbia_dat_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1740: Assignment to <arg fmt="%s" index="1">tbim_dat_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1741: Assignment to <arg fmt="%s" index="1">tbar_dat_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/or1200_du.v" Line 1742: Assignment to <arg fmt="%s" index="1">tbts_dat_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 579: Assignment to <arg fmt="%s" index="1">or1200_dbg_lss_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 580: Assignment to <arg fmt="%s" index="1">or1200_dbg_is_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 581: Assignment to <arg fmt="%s" index="1">or1200_dbg_wp_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/orpsoc_top.v" Line 608: Assignment to <arg fmt="%s" index="1">sig_tick</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 399: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 414: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_if.v" Line 437: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 405: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 444: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 455: Assignment to <arg fmt="%s" index="1">cmd_cnt_end_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 555: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 560: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_wb.v" Line 565: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 270: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 320: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 348: Result of <arg fmt="%d" index="1">21</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">20</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 387: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">6</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 398: Assignment to <arg fmt="%s" index="1">cmd_cnt_end_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 425: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 499: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">17</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 513: Assignment to <arg fmt="%s" index="1">half_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/dbg_cpu.v" Line 789: Assignment to <arg fmt="%s" index="1">mem_ptr_init</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 130: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 133: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 136: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 142: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">4</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 145: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb.v" Line 148: Result of <arg fmt="%d" index="1">32</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1330" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v" Line 249: Function <arg fmt="%s" index="1">set_mem32</arg> has no return value assignment
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="886" delta="old" >"/home/soteria/openrisc/orpsocv2/new_proj/rtl1/verilog/rtl/ram_wb_b3.v" Line 39: Vector size is larger than 2**<arg fmt="%d" index="1">16</arg> bits
+</msg>
+
+</messages>
